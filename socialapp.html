@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- like button icon style kitanel hyperlink ivide add cheyanam -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- semantic tags(namuk manasilavan vendi ulla tags)=header,main,aside,footer  purpose athinaan enne ullu displayil prathyekich changes onnum indavilla -->
+    <header>
+        <!-- image tage consists of src=source & alt=alternative(nammal kodutha image ilenkil avide ndha kanikende) -->
+        <!-- login person image(profile image) ,create a folder static and store images in that folder to give source using folder shortcut is (./)-->
+        <img src="./static/dp-avatar.png" alt=" No image" height="50px" width="50px">
+        <!-- a tag is used to add links,href is used to add source,redirect cheyendath eth sourceilek anenn(evidekaan povende) -->
+        <a href="#">Home</a>   
+        <a href="#">profile</a>
+        <a href="#">contact</a>
+
+        <!-- logout should be a list with logout and change pswd.click cheyumbo thazhek list cheyanam -->
+        <!-- select>option*2 = one select tag with 2 option tag(short key) -->
+        <select name="" id="">
+            <!-- display cheyenda text option aayitaan mention cheyende -->
+            <!-- value=click cheyumbo backendilek retrieve cheyendathaan valueil kodukende,display cheyenda text taginakath kodukam -->
+            <option value=""> 
+                Account
+            </option>
+            <option value="">
+                <!-- hyperlink -->
+                <a href="#">logout</a>
+            </option>
+            <option value="">
+                <a href="#">ChangePassword</a>
+            </option>
+        </select>
+    </header>
+    <main>
+        <!-- adding post -->
+        <!-- id=unique aayi identify cheyan ulla id,name=textboxname,placeholder=boxinakath watermark pole kanikan -->
+        <!-- <input type="text" id="id_post" name="post" placeholder="write new post"> or-->
+        <textarea name="post" id="id_post" cols="30" rows="10" placeholder="write your post" maxlength="200"></textarea>
+        <!-- value is ndha buttonil display cheyende -->
+        <!-- <input type="button" id="id_addpost" value="addpost"> or-->
+        <button>submit</button>
+        <!-- adding post -->
+        <div id="id_newpost">
+            <img src="./static/bored-with-your-facebook-dp-create-your-own-avatar-with-this-easy-guide.png" alt="" height="200px" width="200px">
+            <div>
+                <!-- <em> is using instead of <i> tag -->
+                <span>postedBy:</span><span><em>Ram</em></span>
+                <!--adding like button as hyperlink by copying code of icon from font awesome site and pasting inside a tag
+                -->
+                 <a href="#"><i class="fa-solid fa-thumbs-up"></i></a>
+            
+            </div>
+
+        </div>
+
+        <textarea name="comments" id="id_comments" cols="40" rows="5                                                                        " placeholder="write your comments" maxlength="100"></textarea>
+        <button>Comment</button>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+
+</html>

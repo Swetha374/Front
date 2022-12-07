@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    
+}
+
+.col-1{
+    /* width depends on wrapper */
+    width: 20%;
+    background-color: aqua;
+    margin: 20px auto;
+    text-align: center;
+    
+    
+
+}
+
+.col-2{
+    background-color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col-3{
+    background-color: bisque;
+}

@@ -1,0 +1,38 @@
+.row1{
+    width: 70%;
+    display: flex;
+    /* border: 1px solid black; */
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+}
+header{
+    width: 70%;
+    margin: auto;
+    background-color: pink;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.row2{
+    width: 70%;
+    display: flex;
+    /* border: 1px solid black; */
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+}
+.row3{
+    width: 70%;
+    display: flex;
+    /* border: 1px solid black; */
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+}
+.col-9{
+    margin-top: 30px;
+}
+.col-11{
+    margin-top: 20px;
+}

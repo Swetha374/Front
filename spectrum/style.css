@@ -1,0 +1,15 @@
+.col{
+    width: 200px;
+    height: 350px;
+    border: 1px solid black;
+    float: left;
+}
+.col-1{
+    background-color: blueviolet;
+}
+.col-2{
+    background-color: brown;
+}
+.col-3{
+    background-color: aqua;
+}

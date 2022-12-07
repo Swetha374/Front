@@ -1,0 +1,90 @@
+
+body{
+    height: 90vh;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    /* colour taken from css gradient-background */
+
+
+    
+}
+.container{
+    height: 100%;
+
+   
+}
+.row{
+    margin: auto;
+    width: 70%;
+    /*  height:100vh; vh=viewport height(eduthitulla screeninte height),vw=view port width */
+    
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap:50px;
+    grid-column-gap:20px;
+    color: wheat;
+    flex-wrap: wrap;
+    padding: 20px 0 0 10px;
+    /* contain shadow */
+    box-shadow: 10px 10px 10px 10px #260347;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    color: black;
+}
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 50%;
+    /* border radius is used to make button's side curve */
+    
+
+    
+}
+/* button:hover{
+    background-color: aqua;
+    color: white;
+    border-color: white;
+    hover:buttonil pointer vekumbo colur change avanam 
+} */
+
+
+.header{
+    width: 70%;
+    margin: auto;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    text-align: center;
+}
+
+         /* took from css gradient */
+.btn-grad {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+    margin: 10px 10px 10px 0;
+    padding: 10px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 

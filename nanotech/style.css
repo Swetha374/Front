@@ -1,0 +1,135 @@
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 20px;
+}
+.nav-bar{
+    padding-left: 50px;
+
+}
+.navbar-brand{
+
+padding-inline-end: 10px;
+}
+.nav-bar-nav li{
+    padding: 20px;
+    padding-right: 100px;
+
+}
+
+.nav-bar-nav li a{
+    color: black !important;
+    font-weight: 600;
+    
+}
+.btn{
+    border-radius: 100px;
+   background-color:rgb(240, 126, 126);
+    padding-left: 50px;
+    width: 190px;
+    height: 38px;
+    color:white;
+    margin-top: 18px;
+    padding: 7px;
+    padding-right: 0px;
+   
+    /* padding-left: 50px; */
+
+}
+.btn:hover{
+    background-color:rgb(241, 114, 114);
+    color: white;
+
+}
+.fa-bars{
+    color: black;
+    font-size: 30px !important;
+}
+
+.vr{
+    display: block;
+    align-self: baseline;
+    width: 1px;
+    min-height: 3em;
+    background-color: currentcolor;
+    opacity: .25;
+}
+.vl {
+    border-left: 1px solid rgb(230, 218, 218);
+    border-right-width: 1px;
+    height: 45px;
+    border-top: 50px;
+    padding-top: 50px;
+  }
+  hr.style1{
+	border: top 1px solid rgb(230, 218, 218);
+margin: -1em;
+}
+.nav-item{
+    padding: 15px;
+
+}
+.fa-facebook{
+       padding: 28px;
+       padding-left: 30px;
+}
+.fa-twitter{
+    padding: 28px;
+}
+.fa-instagram{
+    padding: 28px;
+
+}
+.fa-linkedin{
+    padding:28px ;
+    padding-left: 30px;
+}
+.fa-plus{
+    padding: 30px;
+    padding-left: 190px;
+
+}
+.navbar-nav{
+    padding: 0px;
+}
+.container{
+    
+    background: rgb(9, 101, 137);
+    color: white;
+    width:inherit;
+    max-width: initial;
+
+}
+.img{
+
+    padding-left: 470px;
+
+  
+    
+    
+}
+.text{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-top: 170px;
+}
+.fixed-bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(241, 114, 114);
+    color:white;
+    text-align: center;
+  }
+  .btn1{
+    border-radius: 100px;
+    background-color:white;
+     padding-left:10px;
+     width: 195px;
+     height: 40px;
+     color:black;
+     margin-top: 18px;
+     padding: 7px;
+     padding-right: 0px;
+  }

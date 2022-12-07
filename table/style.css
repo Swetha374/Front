@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    
+}
+h1{
+    color: rgba(240, 248, 255, 0.888);
+    text-align: center;
+}
+
+td{
+    height: 200px;
+    width: 150px;
+    
+    
+}
+
+/* pseudo elements first classinakathe nth child */
+
+.first>:nth-child(1){
+
+    background-color: aquamarine;
+
+}
+.first>:nth-child(2){
+    background-color: bisque;
+}
+.first>:nth-child(3){
+    background-color:rgb(21, 201, 144);
+}
+.first>:nth-child(4){
+    background-color:brown;
+}
+.first>:nth-child(5){
+    background-color: blue;
+}
+.second>:nth-child(1){
+    background-color: rgb(191, 226, 35);
+}
+.second>:nth-child(2){
+    background-color: rgb(197, 29, 118);
+}
+.second>:nth-child(3){
+    background-color:rgb(5, 83, 157);
+}
+.second>:nth-child(4){
+    background-color:rgb(74, 45, 10);
+}
+.second>:nth-child(5){ 
+    background-color:rgb(73, 13, 129);
+}
+.second>:nth-child(6){
+    background-color:rgb(35, 224, 149);
+}
+.second>:nth-child(7){
+    background-color:rgb(177, 26, 127);
+}
+.container{
+   
+    padding:30px 400px;
+    
+}
+.wrapper{
+    padding: 30px 260px;
+
+}

@@ -1,0 +1,27 @@
+.row{
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    /* display: flex; is one dimensional,either coloumn or row wise aan direction.elam kude oru directionil aayi,parentinakath(row) 9 column ind  */
+    /* default aayit row ayitaan varunath,namuk ath row vise akkam(flex-direction: column;) */
+    /* grid is two dimensional,bootstrap uses grid*/
+    display: grid;
+    /* 1 fraction(elarum equal space edukum) or namuk entire width 100% aayit edukam (30%-kodutha 3 split,25% 4 split) */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* rows thammil ulla gap */
+    /* grid-row-gap:20px; */
+    /* column gap */
+    /* grid-column-gap:20px; */
+    /* row column randum kudi apply cheyan grid-gap */
+    grid-gap:20px;
+
+}
+header{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(60, 150, 52);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    margin-bottom: 20px;
+}

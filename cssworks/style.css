@@ -1,0 +1,24 @@
+/* tagname,id,classname{
+    property:value1;
+    property:value2;
+} */
+
+h1{
+    color: aqua;
+}
+
+body{
+    background-color: bisque;
+}
+
+/* id use cheyumbo id selector use cheyanam id selector is # */
+/* id vachit ulla styling ozhivakua */
+/* id should be unique */
+#id-one{
+    color: blueviolet;
+}
+
+/* class selector is . */
+.item{
+    color: brown;
+}
